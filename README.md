@@ -1,7 +1,7 @@
 # How to reproduce issue
 - `git clone https://github.com/davidnemec/strawberry-mypy-issue-repo-project`
 - `cd strawberry-mypy-issue-repo-project`
-- `python -m venv .venv && source .venb/bin/activate`
+- `python -m venv .venv && source .venv/bin/activate`
 - `pip install poetry && poetry install`
 
 ###  Pydantic model is from external library - fail/exception.
